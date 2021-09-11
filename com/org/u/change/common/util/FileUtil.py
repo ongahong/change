@@ -1,4 +1,5 @@
 
+import os
 
 class FileUtil:
 
@@ -20,3 +21,5 @@ f = FileUtil.openFile("D:/workspace/pycode/mypython/com/org/u/change/util/FileUt
 
 f.read(20)
 f.seek(20,25)
+
+os.name
